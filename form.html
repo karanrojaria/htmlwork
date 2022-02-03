@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Feedback Form</h1>
+        <p>Name: <input type="text" name="name"></p>
+        <p>phon number: <input type="number"></p>
+        <p>Email: <input type="email"></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p> 
+            
+            Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="Female">
+        
+        </p>
+    </fieldset>
+    <p>Date of Birth: <input type="datetime-local" id="Test_DatetimeLocal"></p>
+    <p>Feedback Rating: 
+        <select name="feedback" id="feedback">
+            <option value="">--give feedback--</option>
+            <option value="Very Good">Very Good</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+            <option value="worst">worst</option>
+        </select>
+    </p>
+    <p>Hobbies:
+        <input type="checkbox" id="Reading" name="Reading" value="Reading">
+<label for="Reading"> Reading</label><br>
+<input type="checkbox" id="dancing" name="dancing" value="dancing">
+<label for="dancing">dancing</label><br>
+<input type="checkbox" id="Playing" name="Playing" value="Playing">
+<label for="Playing"> Playing</label><br>
+<input type="checkbox" id="other" name="other" value="other"> 
+<label for="other">other</label>
+    </p>
+    <p>Feedback- <textarea name="Feedback" id="feedback" cols="100" rows="8"></textarea></p>
+    <input type="submit">
+    <input type="reset">
+
+    </form>
+    
+</body>
+</html>
